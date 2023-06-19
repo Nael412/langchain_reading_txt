@@ -13,7 +13,7 @@ import bs4
 
 # pdf_path = '/Users/naelshaker/Work/pdf to txt langchain/langchain_reading_txt/Hooked How to Build Habit-Forming Products • Supplemental Workbook (Nir Eyal, Ryan Hoover) (z-lib.org).pdf'
 # epub_path = '/Users/naelshaker/Work/pdf to txt langchain/langchain_reading_txt/Inspired_ How to Create Tech Products Customers Love by Marty Cagan.epub'
-epub_path = 'Inspired_ How to Create Tech Products Customers Love by Marty Cagan.epub'
+epub_path = 'No Rules Rules.epub'
 output_file = 'output.txt'
 
 # # Read the PDF
@@ -78,9 +78,9 @@ def query(q):
 # query("Is there an export ban on coal in indonesia?")
 
 #Queries for the inspired book 
-query("What is the role of the product manager?")
-query("Who is the product owner?")
-query("What is the role of product in startups?")
+query("How do they manage teams at Netflix?")
+query("What does the company think about vacation policy?")
+query("How to create autonomous teams according to the book?")
 
 #printing length of  documents
 # print (len(documents))
